@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lauren's Drive In</title>
+    <meta charset="utf-8">
+    <link href="laurens.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <h1><a href="index.html">Lauren's Drive In</a></h1>
+        <h2><a href="order.html">Place an Order</a></h2>
+        <h2><a href="reservation.html">Reserve a Table</a></h2>
+    </header>
+    <table>
+        <tr>
+            <th>Days</th>
+            <th>Breakfast Time</th>
+            <th>Lunch Time</th>
+            <th>Dinner Time</th>
+        </tr>
+        <tr>
+            <td>Monday-Friday</td>
+            <td>6am-11am</td>
+            <td>11am-3pm</td>
+            <td>3pm-10pm</td>
+        </tr>
+        <tr>
+            <td>Saturday-Sunday</td>
+            <td>8am-11am</td>
+            <td>11am-3pm</td>
+            <td>3pm-8pm</td>
+        </tr>
+    </table>
+    <br>
+        <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+            <label for="First Name">*First Name:</label>
+            <input type="text" name="firstName" id="firstName" required="required"></input>
+                    
+            <label for="Last Name">*Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required="required"></input>
+        
+            <label for="email">*E-mail:</label>
+            <input type="email" name="email" id="email" required="required"></input>
+        
+            <label for="Phone">*Phone:</label>
+            <input type="phone" name="phone" id="phone" maxlength="12"></input>
+
+            <label for="date">*Date:</label>
+            <input type="date" name="date" id="date"></input>
+
+            <label for="Time">*Time</label>
+            <input type="time" name="time" id="time"></input>
+
+            <input type="submit" name="submit" id="submit" required="required"></input>
+        </form>
+    <footer>
+        <small><i>
+            Copyright &copy; 2023 lauren's Drive In<br>
+            <a href="mailto:logany515@gmail.com">
+                LaurenDriveIn@gmail.com
+            </a>
+        </i></small>
+    </footer>
+    </main>
+
+</div>
+</body>
+</html>

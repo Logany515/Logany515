@@ -1,0 +1,81 @@
+h1 {
+    Background-color: #eb9a9a;
+    color: #000000;
+    line-height: 400%;
+    text-indent: 1em;
+    background-image: url(fastfood.webp);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+dt {
+    font-weight: bold;
+    text-indent: 0.5cm;
+}
+body {
+    font-family: Helvetica, Arial, Verdana;
+    background-color: #fff783;
+    color: #5032bd;
+}
+#wrap {
+    margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	background-color: #90c7e3;
+	border: 1px solid #000033;
+	box-shadow: 3px 3px 3px #333333;
+	background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+}
+header {
+    text-align: center;
+    padding-top: 0px;
+}
+main {
+    background-color: #FFFFFF;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+table {
+	border: 2px solid #ffffff;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #025a86;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #eb9a9a;
+}
+nav a:hover {
+	background-color: #ffffff;
+    transition: background-color 2s linear;
+}
+h2 {
+	background-color: #eb9a9a;
+}
+img {
+	float: right;
+}
